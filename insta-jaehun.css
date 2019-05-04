@@ -1,3 +1,8 @@
+.div
+{
+  background-color: white;
+}
+
 .navbar
 {
     display: flex;
@@ -8,6 +13,7 @@
     width: 100%;
     padding: 0 50px;
     position: fixed;
+    background-color: white;
 }
 
 .nav-left
@@ -30,34 +36,6 @@
 {
   width:150px;
   font-size: 25px;
-}
-
-img.circle {
-  border-radius: 50%;
-}
-
-div.ID {
-  font-size: 28px;
-}
-
-div.button {
-  width: fit-content;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  border: 1px solid #dbdbdb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 20px;
-}
-
-.button a {
-  text-decoration: none;
-}
-
-.fa-cog:before {
-  content: "\f013";
 }
 
 
@@ -91,3 +69,92 @@ div.button {
 .instaimg{
   margin:0 5px;
 }
+
+/* 인우형 css */
+/* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+/* 
+body {
+  background-color: #fafafa;
+}
+
+img.circle {
+  border-radius: 50%;
+}
+
+div.ID {
+  font-size: 28px;
+}
+
+div.button {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.fa-cog {
+  font-size: 25px;
+}
+
+.profiledetail {
+  display: flex;
+  align-content: center;
+  margin: 20px 0;
+}
+
+.profilebox {
+  width: 75%;
+  margin: 110px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.below_navbar {
+  background-color: rgb(238, 236, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.content {
+  display: flex;
+  flex-direction: column;
+}
+div.subnav {
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid grey;
+}
+
+.subnav div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 49px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.subnav div:hover {
+  margin-top: -1px;
+  border-top: 2px solid black;
+  cursor: pointer;
+} */
