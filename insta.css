@@ -1,0 +1,27 @@
+img.circle {
+  border-radius: 50%;
+}
+
+div.ID {
+  font-size: 28px;
+}
+
+div.button {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.fa-cog:before {
+  content: "\f013";
+}
