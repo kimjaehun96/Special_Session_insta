@@ -1,0 +1,19 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.829);
+    height: 150;
+    width: 100%;
+}
+
+.nav-left
+{
+    border: white;
+}
+
+.nav-center
+{
+    width:
+}
