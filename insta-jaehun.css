@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .div
 {
   background-color: white;
@@ -14,27 +15,34 @@
     padding: 0 50px;
     position: fixed;
     background-color: white;
+=======
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(180, 180, 180, 0.829);
+  height: 60px;
+  width: 100%;
+  padding: 0 50px;
+  position: fixed;
+>>>>>>> 04b168f7833d436a28268eb0db6c991cfb5de043
 }
 
-.nav-left
-{
-    border: white;
-    
+.nav-left {
+  border: white;
 }
 
-.nav-center
-{
-    width: 200px;
-    text-align: center;
-    border: 1px solid rgb(206, 204, 204);
-    border-radius: 5px;
-    opacity: 0.5;
-    
+.nav-center {
+  width: 200px;
+  text-align: center;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 5px;
+  opacity: 0.5;
 }
 
-.nav-right
-{
-  width:150px;
+.nav-right {
+  width: 150px;
   font-size: 25px;
 }
 
@@ -109,12 +117,17 @@ div.button {
   font-size: 25px;
 }
 
+<<<<<<< HEAD
 .profiledetail {
+=======
+.highlights {
+>>>>>>> 04b168f7833d436a28268eb0db6c991cfb5de043
   display: flex;
   align-content: center;
   margin: 20px 0;
 }
 
+<<<<<<< HEAD
 .profilebox {
   width: 75%;
   margin: 110px auto 0 auto;
@@ -136,6 +149,22 @@ div.content {
 div.subnav {
   width: 1000px;
   height: 50px;
+=======
+.highlight {
+  width: auto;
+  margin: 0 25px;
+}
+
+.circle {
+  border: 1px solid rgb(201, 201, 201);
+}
+
+.highcaption {
+  text-align: center;
+}
+
+.imgs {
+>>>>>>> 04b168f7833d436a28268eb0db6c991cfb5de043
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -143,6 +172,7 @@ div.subnav {
   border-top: 1px solid grey;
 }
 
+<<<<<<< HEAD
 .subnav div {
   display: flex;
   flex-direction: row;
@@ -158,3 +188,8 @@ div.subnav {
   border-top: 2px solid black;
   cursor: pointer;
 } */
+=======
+.instaimg {
+  margin: 0 5px;
+}
+>>>>>>> 04b168f7833d436a28268eb0db6c991cfb5de043
