@@ -91,3 +91,7 @@ div.subnav {
   border-top: 2px solid black;
   cursor: pointer;
 }
+
+.middle div {
+  margin-right: 70px;
+}
