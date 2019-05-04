@@ -7,6 +7,7 @@
     height: 60px;
     width: 100%;
     padding: 0 50px;
+    position: fixed;
 }
 
 .nav-left
@@ -62,7 +63,31 @@ div.button {
 
 .highlights{
   display: flex;
-  width: auto;
+  width: 70%;
   align-content: center;
-  margin: 0 50px;
+  margin: 50px auto;
+}
+
+.highlight{
+  width:auto;
+  margin: 0 25px;
+  }
+
+
+.circle{
+  border: 1px solid rgb(201, 201, 201);
+}
+
+.highcaption{
+  text-align: center;
+
+}
+
+.imgs{
+  display: flex;
+  justify-content: center;
+}
+
+.instaimg{
+  margin:0 5px;
 }
