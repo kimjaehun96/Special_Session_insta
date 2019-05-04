@@ -33,8 +33,7 @@ div.button {
 }
 
 .fa-cog {
-  width:25px;
-  height: 25px;
+  font-size: 25px;
 }
 
 .profiledetail {
@@ -42,10 +41,7 @@ div.button {
   align-content: center;
   margin: 20px 0;
 }
- div.profile {
-   width
-  
-} 
+
 .profilebox {
   width: 75%;
   margin: 110px auto 0 auto;
@@ -59,4 +55,33 @@ div.below_navbar {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+div.content {
+  display: flex;
+  flex-direction: column;
+}
+div.subnav {
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid grey;
+}
+
+.subnav div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 49px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.subnav div:hover {
+  margin-top: -1px;
+  border-top: 2px solid black;
+  cursor: pointer;
 }
