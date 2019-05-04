@@ -1,34 +1,29 @@
-.navbar
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-bottom: 1px solid rgba(180, 180, 180, 0.829);
-    height: 60px;
-    width: 100%;
-    padding: 0 50px;
-    position: fixed;
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(180, 180, 180, 0.829);
+  height: 60px;
+  width: 100%;
+  padding: 0 50px;
+  position: fixed;
 }
 
-.nav-left
-{
-    border: white;
-    
+.nav-left {
+  border: white;
 }
 
-.nav-center
-{
-    width: 200px;
-    text-align: center;
-    border: 1px solid rgb(206, 204, 204);
-    border-radius: 5px;
-    opacity: 0.5;
-    
+.nav-center {
+  width: 200px;
+  text-align: center;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 5px;
+  opacity: 0.5;
 }
 
-.nav-right
-{
-  width:150px;
+.nav-right {
+  width: 150px;
   font-size: 25px;
 }
 
@@ -60,34 +55,31 @@ div.button {
   content: "\f013";
 }
 
-
-.highlights{
+.highlights {
   display: flex;
   width: 70%;
   align-content: center;
   margin: 50px auto;
 }
 
-.highlight{
-  width:auto;
+.highlight {
+  width: auto;
   margin: 0 25px;
-  }
+}
 
-
-.circle{
+.circle {
   border: 1px solid rgb(201, 201, 201);
 }
 
-.highcaption{
+.highcaption {
   text-align: center;
-
 }
 
-.imgs{
+.imgs {
   display: flex;
   justify-content: center;
 }
 
-.instaimg{
-  margin:0 5px;
+.instaimg {
+  margin: 0 5px;
 }
